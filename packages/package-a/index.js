@@ -1,7 +1,7 @@
-const dayjs = require('dayjs')
+const dayjs = require('dayjs');
 
 function getDateNameOfToday() {
-  return dayjs().format('dddd')
+  return dayjs().format('dddd');
 }
 
-module.exports = { getDateNameOfToday }
+module.exports = { getDateNameOfToday };

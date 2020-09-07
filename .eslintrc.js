@@ -17,8 +17,6 @@ module.exports = {
         printWidth: 90
       }
     ],
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
     quotes: [
       2,
       'single',
@@ -28,7 +26,6 @@ module.exports = {
       }
     ],
     'comma-dangle': 0,
-    'simple-import-sort/sort': 'error',
     'max-len': 0,
     'multiline-ternary': ['error', 'always-multiline'],
     'no-console': 0
